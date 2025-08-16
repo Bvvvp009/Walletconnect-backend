@@ -1,0 +1,17 @@
+Isolayted and start as separate project in 
+
+../mkdir wcbackend sdk i am quoting this project as a refernce becuase it has working pure backend WC implementation(Dont change any code in this project)
+
+we have walletconnect backend implementation where in tg bot user asks for connection and then will connect to the qr code or uri or via deep link, i want to create asn sdk for this direct backend connection, 
+
+1. implement an sdk around walletconnect where devs can implement this walletconnection in thebackend without any hassle just like normal EOA like metamask that offers everyhing, our walletconnect sdk should offer eveything.
+
+2. We shoulkd preserve the signclient state as well becasue even if server stopped we should make sure the signcleint session is valid, if not users need to reconnect their wallet,
+
+3. and dev should have a users sessions storing db where he can preserve and re collect thier wallet sessions easily(here we should give multiple otions for selection of db) 
+
+4. all avaialble methods and implementations wallet connect offering via frontend must be in this backend implemetations.
+
+so once check reown docs(walletconnect docs)
+
+give me comprehensive plan
