@@ -22,7 +22,6 @@
 *.log.*.*.*.*.*.*.*.*.*
 
 *.test.ts
-*test
-
-./*test
+*./tests
+./*test/*
 ./tests
